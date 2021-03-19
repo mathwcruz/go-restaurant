@@ -2,25 +2,25 @@
   "foods": [
     {
       "id": 1,
-      "name": "Ao molho",
+      "name": "Ao molho com especiarias",
       "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas",
-      "price": "15,46",
+      "price": "10.34",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
     },
     {
-      "id": 3,
-      "name": "A la Camarón",
-      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "price": "25.90",
-      "available": false,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "name": "A la Dory",
+      "price": "21.48",
+      "description": "Macarrão com Doritos e molho especial da casa",
+      "available": true,
+      "id": 3
     },
     {
-      "image": "https://avatars.githubusercontent.com/u/68445791?s=460&u=bbe01c74244d609f9e7b047e5c68de545c775949&v=4",
-      "name": "teste",
-      "price": "16.76",
-      "description": "teste",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "name": "A la Camarón",
+      "price": "23.45",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
       "available": true,
       "id": 4
     }
