@@ -50,7 +50,7 @@ function Food({ food, handleDelete, handleEditFood }: FoodProps) {
           <div className="icon-container">
             <button
               type="button"
-              className="icon"
+              className="icon edit-food"
               onClick={setEditingFood}
               data-testid={`edit-food-${food.id}`}
             >
@@ -59,7 +59,7 @@ function Food({ food, handleDelete, handleEditFood }: FoodProps) {
 
             <button
               type="button"
-              className="icon"
+              className="icon remove-food"
               onClick={() => handleDelete(food.id)}
               data-testid={`remove-food-${food.id}`}
             >

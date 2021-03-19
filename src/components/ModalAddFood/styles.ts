@@ -1,5 +1,16 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { Form as Unform } from '@unform/web';
+
+export const rigthToCenterAnimation = keyframes`
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+`;
 
 export const Form = styled(Unform)`
   padding: 48px 40px;
@@ -28,6 +39,12 @@ export const Form = styled(Unform)`
     display: flex;
     flex-direction: row;
     align-items: center;
+    animation: ${rigthToCenterAnimation} ease-in-out 0.6s;
+    transition: filter 0.2s;
+    &:hover {
+      filter: brightness(0.95);
+      transform: scale(0.99);
+    }
 
     .text {
       padding: 16px 24px;

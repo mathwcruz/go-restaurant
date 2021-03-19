@@ -1,4 +1,13 @@
-import styled, { css } from 'styled-components';
+import styled, { css, keyframes } from 'styled-components';
+
+const appearAnimation = keyframes`
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+`;
 
 interface ContainerProps {
   available: boolean;
@@ -7,6 +16,10 @@ interface ContainerProps {
 export const Container = styled.div<ContainerProps>`
   background: #f0f0f5;
   border-radius: 8px;
+  animation: ${appearAnimation} ease-out 1s;
+  max-width: 90%;
+  justify-self: center;
+  align-items: center;
 
   header {
     background: #ffb84d;
@@ -71,10 +84,21 @@ export const Container = styled.div<ContainerProps>`
         border-radius: 8px;
         display: flex;
         border: none;
-        transition: 0.1s;
+        &.edit-food:hover {
+          svg {
+            color: #ffb84d;
+          }
+        }
+
+        &.remove-food:hover {
+          svg {
+            color: #c72828;
+          }
+        } 
 
         svg {
           color: #3d3d4d;
+          transition: color 0.6s;
         }
 
         & + button {

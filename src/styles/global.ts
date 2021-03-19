@@ -19,6 +19,10 @@ export default createGlobalStyle`
     font-size: 16px;
   }
 
+  input:focus, button:focus, textarea:focus {
+    outline: 0;
+  }
+
   h1, h2, h3, h4, h5, h6, strong {
     font-weight: 500;
   }

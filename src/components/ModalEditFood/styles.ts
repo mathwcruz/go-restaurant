@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import { Form as Unform } from '@unform/web';
 
+import { rigthToCenterAnimation } from '../ModalAddFood/styles';
+
 export const Form = styled(Unform)`
   padding: 48px 40px;
   display: flex;
@@ -28,6 +30,12 @@ export const Form = styled(Unform)`
     display: flex;
     flex-direction: row;
     align-items: center;
+    animation: ${rigthToCenterAnimation} ease-in-out 0.6s;
+    transition: filter 0.2s;
+    &:hover {
+      filter: brightness(0.95);
+      transform: scale(0.99);
+    }
 
     .text {
       padding: 16px 24px;
