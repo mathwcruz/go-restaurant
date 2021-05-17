@@ -6,6 +6,8 @@
 
 ## <p><h2 align="center">Application for food registration in a restaurant developed in Ignite's fourth challenge delivered by [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
 
+## <p align="center"> <img src="https://github.com/mathwcruz/next-auth/blob/main/.github/Ignite.png" width="1400px"/> </p>
+
 <h3>In addition to the proposed challenge, animations were added, some minor changes in CSS were made and I developed the entire responsive layout for the mobile version</h3>
 
 <p align="center">
