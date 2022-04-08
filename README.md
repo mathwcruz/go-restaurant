@@ -4,11 +4,11 @@
 
 ## **<h2 align="center">Front end application  💻</h2>**
 
-## <p><h2 align="center">Application for food registration in a restaurant developed in Ignite's fourth challenge delivered by [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
+## <p><h2 align="center">Application for food registration in a restaurant</h2> </p>
 
 ## <p align="center"> <img src="https://github.com/mathwcruz/next-auth/blob/main/.github/Ignite.png" width="1400px"/> </p>
 
-<h3>In addition to the proposed challenge, animations were added, some minor changes in CSS were made and I developed the entire responsive layout for the mobile version</h3>
+<h3 align="center">In addition to the proposed challenge, animations were added, some minor changes in CSS were made and I developed the entire responsive layout for the mobile version</h3>
 
 <p align="center">
   <a href="#computer-demonstration-of-the-application-web">Demonstration of the application</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -83,7 +83,5 @@ Desenvolvido por Matheus da Cruz 😊
 [![Linkedin Badge](https://img.shields.io/badge/-Matheus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-cruz-frontend/)](https://www.linkedin.com/in/matheus-cruz-frontend/) 
 [![Gmail Badge](https://img.shields.io/badge/-matheuswachcruz@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:matheuswachcruz@gmail.com)](mailto:matheuswachcruz@gmail.com)
 <br>
-
-## **<p align="center">Starting the walk to be able to participate in the marathon in this world of programming 🏃‍</p>**
 
 ### <p> <h2 align="center">Another application by Matheus da Cruz 👨‍💻 </h2> </p>
